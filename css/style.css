@@ -137,6 +137,18 @@ img {
 @media screen and (max-width: 480px) {
     .container {
         max-width: 480px;
+        padding: 0;
+    }
+
+    .steps .container {
+        background-color: #eebbc3;
+        padding-top: 48px;
+    }
+
+    .why-us .container {
+        padding-top: 48px;
+
+        background-color: #222222;
     }
 
     .row {
@@ -159,12 +171,13 @@ img {
         padding-bottom: 48px;
     }
 
-    .steps.text-center {
-        padding-top: 48px;
-        margin-top: 0px;
+    .steps {
+        margin: 0;
+        padding: 0 ;
     }
 
-    .text-center {
-        padding: 0px;
+    .why-us {
+        margin-bottom: 0px;
+        background-color: #222222;
     }
 }
