@@ -139,20 +139,32 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-    .container {
+
+    main {
         max-width: 480px;
+    }
+
+    .container {
+        max-width: 100%;
         padding: 0;
     }
 
     .steps .container {
-        background-color: #eebbc3;
         padding-top: 48px;
+    }
+
+    .steps {
+        margin: 0;
+        padding: 0 ;
+    }
+
+    .why-us {
+        margin-bottom: 0px;
+        background-color: #222222;
     }
 
     .why-us .container {
         padding-top: 48px;
-
-        background-color: #222222;
     }
 
     .row {
@@ -173,15 +185,5 @@ img {
     .why-us .col {
 
         padding-bottom: 48px;
-    }
-
-    .steps {
-        margin: 0;
-        padding: 0 ;
-    }
-
-    .why-us {
-        margin-bottom: 0px;
-        background-color: #222222;
     }
 }
